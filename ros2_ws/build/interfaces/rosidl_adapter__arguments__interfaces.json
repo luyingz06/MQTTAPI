@@ -1,0 +1,7 @@
+{
+  "package_name": "interfaces",
+  "non_idl_tuples": [
+    "/home/aurora/MQTTAPI/ros2_ws/src/interfaces:msg/MissionMessage.msg",
+    "/home/aurora/MQTTAPI/ros2_ws/src/interfaces:srv/MissionMessage.srv"
+  ]
+}

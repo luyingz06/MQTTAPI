@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from interfaces/srv/MissionMessage.srv
+// generated code does not contain a copyright notice
+
+
+module interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      " Request part")
+    struct MissionMessage_Request {
+      int32 input_value;
+
+      string input_message;
+    };
+    struct MissionMessage_Response {
+      @verbatim (language="comment", text=
+        " Response part")
+      boolean success;
+
+      string response_message;
+    };
+  };
+};

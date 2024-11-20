@@ -1,0 +1,22 @@
+[0.352s] Invoking command in '/home/aurora/MQTTAPI/ros2_ws/src/mqtt_integration': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/aurora/MQTTAPI/ros2_ws/build/mqtt_integration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aurora/MQTTAPI/ros2_ws/install/mqtt_integration/lib/python3.8/site-packages:/home/aurora/MQTTAPI/ros2_ws/install/interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mqtt_integration build --build-base /home/aurora/MQTTAPI/ros2_ws/build/mqtt_integration/build install --record /home/aurora/MQTTAPI/ros2_ws/build/mqtt_integration/install.log --install-scripts $base/lib/mqtt_integration --single-version-externally-managed install_data
+[0.472s] running egg_info
+[0.472s] writing ../../build/mqtt_integration/mqtt_integration.egg-info/PKG-INFO
+[0.472s] writing dependency_links to ../../build/mqtt_integration/mqtt_integration.egg-info/dependency_links.txt
+[0.472s] writing entry points to ../../build/mqtt_integration/mqtt_integration.egg-info/entry_points.txt
+[0.473s] writing requirements to ../../build/mqtt_integration/mqtt_integration.egg-info/requires.txt
+[0.473s] writing top-level names to ../../build/mqtt_integration/mqtt_integration.egg-info/top_level.txt
+[0.488s] reading manifest file '../../build/mqtt_integration/mqtt_integration.egg-info/SOURCES.txt'
+[0.488s] writing manifest file '../../build/mqtt_integration/mqtt_integration.egg-info/SOURCES.txt'
+[0.489s] running build
+[0.489s] running build_py
+[0.489s] running install
+[0.489s] running install_lib
+[0.490s] running install_data
+[0.490s] running install_egg_info
+[0.490s] removing '/home/aurora/MQTTAPI/ros2_ws/install/mqtt_integration/lib/python3.8/site-packages/mqtt_integration-0.0.0-py3.8.egg-info' (and everything under it)
+[0.491s] Copying ../../build/mqtt_integration/mqtt_integration.egg-info to /home/aurora/MQTTAPI/ros2_ws/install/mqtt_integration/lib/python3.8/site-packages/mqtt_integration-0.0.0-py3.8.egg-info
+[0.491s] running install_scripts
+[0.499s] Installing rn1_node script to /home/aurora/MQTTAPI/ros2_ws/install/mqtt_integration/lib/mqtt_integration
+[0.499s] Installing rn2_node script to /home/aurora/MQTTAPI/ros2_ws/install/mqtt_integration/lib/mqtt_integration
+[0.499s] writing list of installed files to '/home/aurora/MQTTAPI/ros2_ws/build/mqtt_integration/install.log'
+[0.510s] Invoked command in '/home/aurora/MQTTAPI/ros2_ws/src/mqtt_integration' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/aurora/MQTTAPI/ros2_ws/build/mqtt_integration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aurora/MQTTAPI/ros2_ws/install/mqtt_integration/lib/python3.8/site-packages:/home/aurora/MQTTAPI/ros2_ws/install/interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mqtt_integration build --build-base /home/aurora/MQTTAPI/ros2_ws/build/mqtt_integration/build install --record /home/aurora/MQTTAPI/ros2_ws/build/mqtt_integration/install.log --install-scripts $base/lib/mqtt_integration --single-version-externally-managed install_data

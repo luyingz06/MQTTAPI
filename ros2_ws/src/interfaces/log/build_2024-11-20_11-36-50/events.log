@@ -1,0 +1,311 @@
+[0.000000] (-) TimerEvent: {}
+[0.000464] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.000494] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.006830] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[0.007260] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/aurora/MQTTAPI/ros2_ws/src/interfaces', '-DCMAKE_INSTALL_PREFIX=/home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces'], 'cwd': '/home/aurora/MQTTAPI/ros2_ws/src/interfaces/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(ros2)'), ('USER', 'aurora'), ('SSH_AGENT_PID', '2140'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/aurora'), ('CONDA_SHLVL', '2'), ('OLDPWD', '/home/aurora/MQTTAPI/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1932'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/aurora/MQTTAPI/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'aurora'), ('MCR', '/usr/local/MATLAB/MATLAB_Compiler_Runtime/v80'), ('JOURNAL_STREAM', '8:62178'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aurora'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/aurora/miniconda3/envs/ros2/bin:/home/aurora/miniconda3/condabin:/opt/ros/foxy/bin:/home/aurora/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/aa:@/tmp/.ICE-unix/2352,unix/aa:/tmp/.ICE-unix/2352'), ('INVOCATION_ID', 'a7f333a8c6a84c5782d0f62c4e2c1628'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f18c2fe7_5131_4c4c_9688_38a67c5b5f4f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('CONDA_PREFIX_1', '/home/aurora/miniconda3'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.83'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/aurora/MQTTAPI/ros2_ws/install/rn2:/home/aurora/MQTTAPI/ros2_ws/install/rn1:/home/aurora/MQTTAPI/ros2_ws/install/mqtt_integration:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/aurora/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'ros2'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aurora/MQTTAPI/ros2_ws/src/interfaces/build/interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/aurora/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/aurora/MQTTAPI/ros2_ws/install/rn2/lib/python3.8/site-packages:/home/aurora/MQTTAPI/ros2_ws/install/rn1/lib/python3.8/site-packages:/home/aurora/MQTTAPI/ros2_ws/install/mqtt_integration/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('CONDA_PREFIX', '/home/aurora/miniconda3/envs/ros2'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/aurora/MQTTAPI/ros2_ws/install/rn2:/home/aurora/MQTTAPI/ros2_ws/install/rn1:/home/aurora/MQTTAPI/ros2_ws/install/mqtt_integration:/opt/ros/foxy')]), 'shell': False}
+[0.018472] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.033013] (interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /home/aurora/miniconda3/envs/ros2/bin/python3 (found suitable version "3.8", minimum required is "3") \n'}
+[0.033147] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/aurora/miniconda3/envs/ros2/bin/python3\n'}
+[0.099831] (-) TimerEvent: {}
+[0.117516] (interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.170436] (interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[0.184764] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.186457] (interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.199940] (-) TimerEvent: {}
+[0.293860] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.300075] (-) TimerEvent: {}
+[0.336758] (interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.361021] (interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /home/aurora/miniconda3/envs/ros2/bin/python3 (found version "3.8") \n'}
+[0.400200] (-) TimerEvent: {}
+[0.439770] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[0.500345] (-) TimerEvent: {}
+[0.600654] (-) TimerEvent: {}
+[0.603744] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.660955] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.679264] (interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /home/aurora/miniconda3/envs/ros2/bin/python3 (found suitable version "3.8", minimum required is "3.5") \n'}
+[0.681959] (interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[0.700745] (-) TimerEvent: {}
+[0.708210] (interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /home/aurora/miniconda3/envs/ros2/lib/libpython3.8.so (found suitable version "3.8.0", minimum required is "3.5") \n'}
+[0.708444] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/aurora/miniconda3/envs/ros2/bin/python3\n'}
+[0.708543] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /home/aurora/miniconda3/envs/ros2/include/python3.8\n'}
+[0.708641] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /home/aurora/miniconda3/envs/ros2/lib/libpython3.8.so\n'}
+[0.726246] (interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[0.800893] (-) TimerEvent: {}
+[0.901213] (-) TimerEvent: {}
+[0.932678] (interfaces) StdoutLine: {'line': b'-- Using numpy include directory: /home/aurora/.local/lib/python3.8/site-packages/numpy/core/include\n'}
+[0.944667] (interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.951155] (interfaces) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.952077] (interfaces) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/aurora/MQTTAPI/ros2_ws/src/interfaces/build/interfaces/rosidl_generator_c>;/home/aurora/MQTTAPI/ros2_ws/src/interfaces/build/interfaces/rosidl_generator_c;/home/aurora/MQTTAPI/ros2_ws/src/interfaces/build/interfaces/rosidl_generator_cpp;/home/aurora/MQTTAPI/ros2_ws/src/interfaces/build/interfaces/rosidl_typesupport_fastrtps_c;/home/aurora/MQTTAPI/ros2_ws/src/interfaces/build/interfaces/rosidl_typesupport_fastrtps_cpp;$<BUILD_INTERFACE:/home/aurora/MQTTAPI/ros2_ws/src/interfaces/build/interfaces/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/aurora/MQTTAPI/ros2_ws/src/interfaces/build/interfaces/rosidl_typesupport_c>;$<BUILD_INTERFACE:/home/aurora/MQTTAPI/ros2_ws/src/interfaces/build/interfaces/rosidl_generator_cpp>;/home/aurora/MQTTAPI/ros2_ws/src/interfaces/build/interfaces/rosidl_generator_py\n'}
+[0.952243] (interfaces) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.958425] (interfaces) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.958573] (interfaces) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.959540] (interfaces) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.961381] (interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.962463] (interfaces) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[0.969095] (interfaces) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.969256] (interfaces) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.970205] (interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.975972] (interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.000551] (interfaces) StderrLine: {'line': b'CMake Warning at /opt/ros/foxy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:235 (add_library):\n'}
+[1.000746] (interfaces) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target\n'}
+[1.000840] (interfaces) StderrLine: {'line': b'  interfaces__rosidl_typesupport_fastrtps_c__pyext because files in some\n'}
+[1.000923] (interfaces) StderrLine: {'line': b'  directories may conflict with libraries in implicit directories:\n'}
+[1.000998] (interfaces) StderrLine: {'line': b'\n'}
+[1.001071] (interfaces) StderrLine: {'line': b'    runtime library [libssl.so.1.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[1.001138] (interfaces) StderrLine: {'line': b'      /home/aurora/miniconda3/envs/ros2/lib\n'}
+[1.001205] (-) TimerEvent: {}
+[1.001319] (interfaces) StderrLine: {'line': b'    runtime library [libcrypto.so.1.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[1.001408] (interfaces) StderrLine: {'line': b'      /home/aurora/miniconda3/envs/ros2/lib\n'}
+[1.001502] (interfaces) StderrLine: {'line': b'\n'}
+[1.001579] (interfaces) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[1.001651] (interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.001721] (interfaces) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[1.001801] (interfaces) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[1.001873] (interfaces) StderrLine: {'line': b'  CMakeLists.txt:38 (rosidl_generate_interfaces)\n'}
+[1.001942] (interfaces) StderrLine: {'line': b'\n'}
+[1.002011] (interfaces) StderrLine: {'line': b'\n'}
+[1.012967] (interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.014733] (interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/build/interfaces\n'}
+[1.020852] (interfaces) CommandEnded: {'returncode': 0}
+[1.021831] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'build'}
+[1.024791] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aurora/MQTTAPI/ros2_ws/src/interfaces/build/interfaces', '--', '-j32', '-l32'], 'cwd': '/home/aurora/MQTTAPI/ros2_ws/src/interfaces/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(ros2)'), ('USER', 'aurora'), ('SSH_AGENT_PID', '2140'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/aurora'), ('CONDA_SHLVL', '2'), ('OLDPWD', '/home/aurora/MQTTAPI/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1932'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/aurora/MQTTAPI/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'aurora'), ('MCR', '/usr/local/MATLAB/MATLAB_Compiler_Runtime/v80'), ('JOURNAL_STREAM', '8:62178'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aurora'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/aurora/miniconda3/envs/ros2/bin:/home/aurora/miniconda3/condabin:/opt/ros/foxy/bin:/home/aurora/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/aa:@/tmp/.ICE-unix/2352,unix/aa:/tmp/.ICE-unix/2352'), ('INVOCATION_ID', 'a7f333a8c6a84c5782d0f62c4e2c1628'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f18c2fe7_5131_4c4c_9688_38a67c5b5f4f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('CONDA_PREFIX_1', '/home/aurora/miniconda3'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.83'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/aurora/MQTTAPI/ros2_ws/install/rn2:/home/aurora/MQTTAPI/ros2_ws/install/rn1:/home/aurora/MQTTAPI/ros2_ws/install/mqtt_integration:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/aurora/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'ros2'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aurora/MQTTAPI/ros2_ws/src/interfaces/build/interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/aurora/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/aurora/MQTTAPI/ros2_ws/install/rn2/lib/python3.8/site-packages:/home/aurora/MQTTAPI/ros2_ws/install/rn1/lib/python3.8/site-packages:/home/aurora/MQTTAPI/ros2_ws/install/mqtt_integration/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('CONDA_PREFIX', '/home/aurora/miniconda3/envs/ros2'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/aurora/MQTTAPI/ros2_ws/install/rn2:/home/aurora/MQTTAPI/ros2_ws/install/rn1:/home/aurora/MQTTAPI/ros2_ws/install/mqtt_integration:/opt/ros/foxy')]), 'shell': False}
+[1.065137] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__cpp\x1b[0m\n'}
+[1.065460] (interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.077614] (interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.101311] (-) TimerEvent: {}
+[1.201623] (-) TimerEvent: {}
+[1.272562] (interfaces) StdoutLine: {'line': b'[  5%] Built target interfaces__cpp\n'}
+[1.280049] (interfaces) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.280277] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_generator_c\x1b[0m\n'}
+[1.280374] (interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.280545] (interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.291915] (interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/mission_message__functions.c.o\x1b[0m\n'}
+[1.292084] (interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/mission_message__functions.c.o\x1b[0m\n'}
+[1.301682] (-) TimerEvent: {}
+[1.337898] (interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libinterfaces__rosidl_generator_c.so\x1b[0m\n'}
+[1.379536] (interfaces) StdoutLine: {'line': b'[ 20%] Built target interfaces__rosidl_generator_c\n'}
+[1.392860] (interfaces) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.393864] (interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.401799] (-) TimerEvent: {}
+[1.463167] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.472752] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.474056] (interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/mission_message__type_support.cpp.o\x1b[0m\n'}
+[1.476886] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.477917] (interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/mission_message__type_support.cpp.o\x1b[0m\n'}
+[1.482683] (interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/mission_message__type_support.cpp.o\x1b[0m\n'}
+[1.483356] (interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/mission_message__type_support.cpp.o\x1b[0m\n'}
+[1.492647] (interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/mission_message__type_support.cpp.o\x1b[0m\n'}
+[1.492844] (interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/mission_message__type_support.cpp.o\x1b[0m\n'}
+[1.501884] (-) TimerEvent: {}
+[1.572148] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[1.580894] (interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/mission_message__type_support.cpp.o\x1b[0m\n'}
+[1.581105] (interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/mission_message__type_support.cpp.o\x1b[0m\n'}
+[1.583551] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.592896] (interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/mission_message__type_support.c.o\x1b[0m\n'}
+[1.593017] (interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/mission_message__type_support.c.o\x1b[0m\n'}
+[1.602007] (-) TimerEvent: {}
+[1.609972] (interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.615471] (interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking C shared library libinterfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.633527] (interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.635654] (interfaces) StdoutLine: {'line': b'[ 58%] Built target interfaces__rosidl_typesupport_introspection_c\n'}
+[1.642248] (interfaces) StdoutLine: {'line': b'[ 58%] Built target interfaces__rosidl_typesupport_c\n'}
+[1.645009] (interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.662216] (interfaces) StdoutLine: {'line': b'[ 61%] Built target interfaces__rosidl_typesupport_cpp\n'}
+[1.687366] (interfaces) StdoutLine: {'line': b'[ 61%] Built target interfaces__rosidl_typesupport_introspection_cpp\n'}
+[1.702113] (-) TimerEvent: {}
+[1.744421] (interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[1.802272] (-) TimerEvent: {}
+[1.810023] (interfaces) StdoutLine: {'line': b'[ 64%] Built target interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[1.824104] (interfaces) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.902382] (-) TimerEvent: {}
+[2.002665] (-) TimerEvent: {}
+[2.026086] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[2.043132] (interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/mission_message__type_support_c.cpp.o\x1b[0m\n'}
+[2.045806] (interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/mission_message__type_support_c.cpp.o\x1b[0m\n'}
+[2.102792] (-) TimerEvent: {}
+[2.203099] (-) TimerEvent: {}
+[2.252240] (interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.303220] (-) TimerEvent: {}
+[2.314205] (interfaces) StdoutLine: {'line': b'[ 74%] Built target interfaces__rosidl_typesupport_fastrtps_c\n'}
+[2.320500] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces\x1b[0m\n'}
+[2.328360] (interfaces) StdoutLine: {'line': b'[ 74%] Built target interfaces\n'}
+[2.334213] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__py\x1b[0m\n'}
+[2.347753] (interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.403370] (-) TimerEvent: {}
+[2.503707] (-) TimerEvent: {}
+[2.604038] (-) TimerEvent: {}
+[2.674506] (interfaces) StdoutLine: {'line': b'[ 76%] Built target interfaces__py\n'}
+[2.681402] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__python\x1b[0m\n'}
+[2.704143] (-) TimerEvent: {}
+[2.704967] (interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/msg/_mission_message_s.c.o\x1b[0m\n'}
+[2.708988] (interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/srv/_mission_message_s.c.o\x1b[0m\n'}
+[2.776526] (interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/libinterfaces__python.so\x1b[0m\n'}
+[2.804215] (-) TimerEvent: {}
+[2.823877] (interfaces) StdoutLine: {'line': b'[ 84%] Built target interfaces__python\n'}
+[2.835943] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[2.836491] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[2.838255] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[2.851872] (interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[2.853435] (interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[2.857125] (interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[2.904331] (-) TimerEvent: {}
+[2.905591] (interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.908870] (interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.911321] (interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.939164] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_c__pyext\n'}
+[2.946754] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[2.963755] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.973983] (interfaces) CommandEnded: {'returncode': 0}
+[3.004468] (-) TimerEvent: {}
+[3.036998] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'install'}
+[3.052242] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/aurora/MQTTAPI/ros2_ws/src/interfaces/build/interfaces'], 'cwd': '/home/aurora/MQTTAPI/ros2_ws/src/interfaces/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(ros2)'), ('USER', 'aurora'), ('SSH_AGENT_PID', '2140'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/aurora'), ('CONDA_SHLVL', '2'), ('OLDPWD', '/home/aurora/MQTTAPI/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1932'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/aurora/MQTTAPI/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'aurora'), ('MCR', '/usr/local/MATLAB/MATLAB_Compiler_Runtime/v80'), ('JOURNAL_STREAM', '8:62178'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aurora'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/aurora/miniconda3/envs/ros2/bin:/home/aurora/miniconda3/condabin:/opt/ros/foxy/bin:/home/aurora/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/aa:@/tmp/.ICE-unix/2352,unix/aa:/tmp/.ICE-unix/2352'), ('INVOCATION_ID', 'a7f333a8c6a84c5782d0f62c4e2c1628'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f18c2fe7_5131_4c4c_9688_38a67c5b5f4f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('CONDA_PREFIX_1', '/home/aurora/miniconda3'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.83'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/aurora/MQTTAPI/ros2_ws/install/rn2:/home/aurora/MQTTAPI/ros2_ws/install/rn1:/home/aurora/MQTTAPI/ros2_ws/install/mqtt_integration:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/aurora/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'ros2'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aurora/MQTTAPI/ros2_ws/src/interfaces/build/interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/aurora/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/aurora/MQTTAPI/ros2_ws/install/rn2/lib/python3.8/site-packages:/home/aurora/MQTTAPI/ros2_ws/install/rn1/lib/python3.8/site-packages:/home/aurora/MQTTAPI/ros2_ws/install/mqtt_integration/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('CONDA_PREFIX', '/home/aurora/miniconda3/envs/ros2'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/aurora/MQTTAPI/ros2_ws/install/rn2:/home/aurora/MQTTAPI/ros2_ws/install/rn1:/home/aurora/MQTTAPI/ros2_ws/install/mqtt_integration:/opt/ros/foxy')]), 'shell': False}
+[3.062986] (interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.063261] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces\n'}
+[3.063370] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces\n'}
+[3.063404] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/srv\n'}
+[3.063471] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/srv/detail\n'}
+[3.063541] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/srv/detail/mission_message__functions.h\n'}
+[3.063575] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/srv/detail/mission_message__struct.h\n'}
+[3.063650] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/srv/detail/mission_message__type_support.h\n'}
+[3.063687] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/srv/detail/mission_message__functions.c\n'}
+[3.063746] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/srv/mission_message.h\n'}
+[3.063813] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/msg\n'}
+[3.063841] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/msg/detail\n'}
+[3.063879] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/msg/detail/mission_message__functions.h\n'}
+[3.063961] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/msg/detail/mission_message__struct.h\n'}
+[3.063992] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/msg/detail/mission_message__type_support.h\n'}
+[3.064057] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/msg/detail/mission_message__functions.c\n'}
+[3.064161] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.064193] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/msg/mission_message.h\n'}
+[3.064282] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/share/interfaces/environment/library_path.sh\n'}
+[3.064385] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/share/interfaces/environment/library_path.dsv\n'}
+[3.064523] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/lib/libinterfaces__rosidl_generator_c.so\n'}
+[3.064750] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/lib/libinterfaces__rosidl_generator_c.so" to ""\n'}
+[3.064836] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces\n'}
+[3.064900] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/srv\n'}
+[3.064983] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/srv/detail\n'}
+[3.065013] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/srv/detail/mission_message__rosidl_typesupport_fastrtps_c.h\n'}
+[3.065059] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/msg\n'}
+[3.065116] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/msg/detail\n'}
+[3.065173] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/msg/detail/mission_message__rosidl_typesupport_fastrtps_c.h\n'}
+[3.065202] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.065230] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[3.065395] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[3.065488] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces\n'}
+[3.065520] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/srv\n'}
+[3.065549] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/srv/detail\n'}
+[3.065641] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/srv/detail/mission_message__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.065678] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/srv/detail/dds_fastrtps\n'}
+[3.065745] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/msg\n'}
+[3.065800] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/msg/detail\n'}
+[3.065829] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/msg/detail/mission_message__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.065857] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/msg/detail/dds_fastrtps\n'}
+[3.065920] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.065949] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.066160] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[3.066251] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces\n'}
+[3.066288] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/srv\n'}
+[3.066345] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/srv/detail\n'}
+[3.066380] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/srv/detail/mission_message__rosidl_typesupport_introspection_c.h\n'}
+[3.066427] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/srv/detail/mission_message__type_support.c\n'}
+[3.066500] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/msg\n'}
+[3.066539] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/msg/detail\n'}
+[3.066612] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/msg/detail/mission_message__rosidl_typesupport_introspection_c.h\n'}
+[3.066643] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/msg/detail/mission_message__type_support.c\n'}
+[3.066672] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.066742] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so\n'}
+[3.066950] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[3.067017] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so\n'}
+[3.067204] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so" to ""\n'}
+[3.067301] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces\n'}
+[3.067337] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/srv\n'}
+[3.067366] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/srv/detail\n'}
+[3.067422] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/srv/detail/mission_message__type_support.hpp\n'}
+[3.067454] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/srv/detail/mission_message__traits.hpp\n'}
+[3.067519] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/srv/detail/mission_message__builder.hpp\n'}
+[3.067575] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/srv/detail/mission_message__struct.hpp\n'}
+[3.067633] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/srv/mission_message.hpp\n'}
+[3.067708] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/msg\n'}
+[3.067764] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/msg/detail\n'}
+[3.067821] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/msg/detail/mission_message__type_support.hpp\n'}
+[3.067876] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/msg/detail/mission_message__traits.hpp\n'}
+[3.067940] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/msg/detail/mission_message__builder.hpp\n'}
+[3.067969] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/msg/detail/mission_message__struct.hpp\n'}
+[3.068043] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/msg/mission_message.hpp\n'}
+[3.068118] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[3.068219] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces\n'}
+[3.068254] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/srv\n'}
+[3.068285] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/srv/detail\n'}
+[3.068345] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/srv/detail/mission_message__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.068421] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/srv/detail/mission_message__type_support.cpp\n'}
+[3.068451] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/msg\n'}
+[3.068507] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/msg/detail\n'}
+[3.068538] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/msg/detail/mission_message__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.068573] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/include/interfaces/msg/detail/mission_message__type_support.cpp\n'}
+[3.068639] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[3.068865] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[3.068925] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so\n'}
+[3.069134] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[3.069191] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/share/interfaces/environment/pythonpath.sh\n'}
+[3.069265] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/share/interfaces/environment/pythonpath.dsv\n'}
+[3.069435] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/lib/python3.8/site-packages/interfaces/__init__.py\n'}
+[3.098649] (interfaces) StdoutLine: {'line': b"Compiling '/home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/lib/python3.8/site-packages/interfaces/__init__.py'...\n"}
+[3.100885] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/lib/python3.8/site-packages/interfaces/msg\n'}
+[3.101035] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_mission_message_s.c\n'}
+[3.101264] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_mission_message.py\n'}
+[3.101455] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/lib/python3.8/site-packages/interfaces/msg/__init__.py\n'}
+[3.101703] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/lib/python3.8/site-packages/interfaces/srv\n'}
+[3.101858] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/lib/python3.8/site-packages/interfaces/srv/_mission_message_s.c\n'}
+[3.102036] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/lib/python3.8/site-packages/interfaces/srv/_mission_message.py\n'}
+[3.102226] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/lib/python3.8/site-packages/interfaces/srv/__init__.py\n'}
+[3.102812] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[3.104065] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[3.104491] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[3.104644] (-) TimerEvent: {}
+[3.104815] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[3.104949] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[3.105237] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[3.105409] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/lib/libinterfaces__python.so\n'}
+[3.105543] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/lib/libinterfaces__python.so" to ""\n'}
+[3.105637] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/share/interfaces/msg/MissionMessage.idl\n'}
+[3.105756] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/share/interfaces/srv/MissionMessage.idl\n'}
+[3.105875] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/share/interfaces/msg/MissionMessage.msg\n'}
+[3.105966] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/share/interfaces/srv/MissionMessage.srv\n'}
+[3.106074] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/share/interfaces/srv/MissionMessage_Request.msg\n'}
+[3.106153] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/share/interfaces/srv/MissionMessage_Response.msg\n'}
+[3.106260] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces\n'}
+[3.106365] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces\n'}
+[3.106468] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/share/interfaces/environment/ament_prefix_path.sh\n'}
+[3.106581] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv\n'}
+[3.106658] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/share/interfaces/environment/path.sh\n'}
+[3.106779] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/share/interfaces/environment/path.dsv\n'}
+[3.106860] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/share/interfaces/local_setup.bash\n'}
+[3.106931] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/share/interfaces/local_setup.sh\n'}
+[3.107047] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/share/interfaces/local_setup.zsh\n'}
+[3.107119] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/share/interfaces/local_setup.dsv\n'}
+[3.107218] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/share/interfaces/package.dsv\n'}
+[3.107304] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/share/ament_index/resource_index/packages/interfaces\n'}
+[3.107408] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cExport.cmake\n'}
+[3.107508] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.107609] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.107717] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.107831] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake\n'}
+[3.107943] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.108070] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cppExport.cmake\n'}
+[3.108195] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.108293] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.108410] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[3.108509] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.108605] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[3.108704] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.108801] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.108909] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.109006] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.109104] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.109202] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.109283] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake\n'}
+[3.109361] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake\n'}
+[3.109469] (interfaces) StdoutLine: {'line': b'-- Installing: /home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces/share/interfaces/package.xml\n'}
+[3.111745] (interfaces) CommandEnded: {'returncode': 0}
+[3.187270] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 0}
+[3.188299] (-) EventReactorShutdown: {}

@@ -1,0 +1,6 @@
+msg/MissionMessage.idl
+msg/MissionMessage.msg
+srv/MissionMessage.idl
+srv/MissionMessage.srv
+srv/MissionMessage_Request.msg
+srv/MissionMessage_Response.msg

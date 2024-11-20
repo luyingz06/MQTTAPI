@@ -1,0 +1,4 @@
+[console_scripts]
+rn1_node = mqtt_integration.rn1_node:main
+rn2_node = mqtt_integration.rn2_node:main
+

@@ -1,0 +1,82 @@
+[0.000000] (-) TimerEvent: {}
+[0.000171] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.000920] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.008125] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[0.008363] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/aurora/MQTTAPI/ros2_ws/src/interfaces', '-DCMAKE_INSTALL_PREFIX=/home/aurora/MQTTAPI/ros2_ws/src/interfaces/install/interfaces'], 'cwd': '/home/aurora/MQTTAPI/ros2_ws/src/interfaces/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(ros2)'), ('USER', 'aurora'), ('SSH_AGENT_PID', '2140'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/aurora'), ('CONDA_SHLVL', '2'), ('OLDPWD', '/home/aurora/MQTTAPI/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1932'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/aurora/MQTTAPI/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'aurora'), ('MCR', '/usr/local/MATLAB/MATLAB_Compiler_Runtime/v80'), ('JOURNAL_STREAM', '8:62178'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aurora'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/aurora/miniconda3/envs/ros2/bin:/home/aurora/miniconda3/condabin:/opt/ros/foxy/bin:/home/aurora/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/aa:@/tmp/.ICE-unix/2352,unix/aa:/tmp/.ICE-unix/2352'), ('INVOCATION_ID', 'a7f333a8c6a84c5782d0f62c4e2c1628'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f18c2fe7_5131_4c4c_9688_38a67c5b5f4f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('CONDA_PREFIX_1', '/home/aurora/miniconda3'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.83'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/aurora/MQTTAPI/ros2_ws/install/rn2:/home/aurora/MQTTAPI/ros2_ws/install/rn1:/home/aurora/MQTTAPI/ros2_ws/install/mqtt_integration:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/aurora/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'ros2'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aurora/MQTTAPI/ros2_ws/src/interfaces/build/interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/aurora/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/aurora/MQTTAPI/ros2_ws/install/rn2/lib/python3.8/site-packages:/home/aurora/MQTTAPI/ros2_ws/install/rn1/lib/python3.8/site-packages:/home/aurora/MQTTAPI/ros2_ws/install/mqtt_integration/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('CONDA_PREFIX', '/home/aurora/miniconda3/envs/ros2'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/aurora/MQTTAPI/ros2_ws/install/rn2:/home/aurora/MQTTAPI/ros2_ws/install/rn1:/home/aurora/MQTTAPI/ros2_ws/install/mqtt_integration:/opt/ros/foxy')]), 'shell': False}
+[0.099882] (-) TimerEvent: {}
+[0.120359] (interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.200026] (-) TimerEvent: {}
+[0.208587] (interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.216067] (interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.300128] (interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.300302] (-) TimerEvent: {}
+[0.301291] (interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.361053] (interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.368487] (interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.368730] (interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.370507] (interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.400424] (-) TimerEvent: {}
+[0.452697] (interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.454463] (interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500510] (-) TimerEvent: {}
+[0.519619] (interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.525245] (interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.525536] (interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.527618] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.557397] (interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /home/aurora/miniconda3/envs/ros2/bin/python3 (found suitable version "3.8", minimum required is "3") \n'}
+[0.557615] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/aurora/miniconda3/envs/ros2/bin/python3\n'}
+[0.600651] (-) TimerEvent: {}
+[0.700962] (-) TimerEvent: {}
+[0.708388] (interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.777205] (interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[0.801088] (-) TimerEvent: {}
+[0.801354] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.806613] (interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.901178] (-) TimerEvent: {}
+[0.923975] (interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.945910] (interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.001332] (-) TimerEvent: {}
+[1.017058] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.066923] (interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.089418] (interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /home/aurora/miniconda3/envs/ros2/bin/python3 (found version "3.8") \n'}
+[1.101472] (-) TimerEvent: {}
+[1.131330] (interfaces) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):\n'}
+[1.131585] (interfaces) StderrLine: {'line': b'  execute_process(/home/aurora/miniconda3/envs/ros2/bin/python3 -m\n'}
+[1.131712] (interfaces) StderrLine: {'line': b'  rosidl_adapter --package-name interfaces --arguments-file\n'}
+[1.131825] (interfaces) StderrLine: {'line': b'  /home/aurora/MQTTAPI/ros2_ws/src/interfaces/build/interfaces/rosidl_adapter__arguments__interfaces.json\n'}
+[1.131929] (interfaces) StderrLine: {'line': b'  --output-dir\n'}
+[1.132024] (interfaces) StderrLine: {'line': b'  /home/aurora/MQTTAPI/ros2_ws/src/interfaces/build/interfaces/rosidl_adapter/interfaces\n'}
+[1.132124] (interfaces) StderrLine: {'line': b'  --output-file\n'}
+[1.132222] (interfaces) StderrLine: {'line': b'  /home/aurora/MQTTAPI/ros2_ws/src/interfaces/build/interfaces/rosidl_adapter/interfaces.idls)\n'}
+[1.132317] (interfaces) StderrLine: {'line': b'  returned error code 1:\n'}
+[1.132413] (interfaces) StderrLine: {'line': b'\n'}
+[1.132510] (interfaces) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[1.132604] (interfaces) StderrLine: {'line': b'\n'}
+[1.132691] (interfaces) StderrLine: {'line': b'    File "/home/aurora/miniconda3/envs/ros2/lib/python3.8/runpy.py", line 192, in _run_module_as_main\n'}
+[1.132786] (interfaces) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[1.132880] (interfaces) StderrLine: {'line': b'    File "/home/aurora/miniconda3/envs/ros2/lib/python3.8/runpy.py", line 85, in _run_code\n'}
+[1.132976] (interfaces) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[1.133071] (interfaces) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[1.133166] (interfaces) StderrLine: {'line': b'      sys.exit(main())\n'}
+[1.133261] (interfaces) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[1.133350] (interfaces) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[1.133443] (interfaces) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl\n'}
+[1.133537] (interfaces) StderrLine: {'line': b'      return convert_srv_to_idl(\n'}
+[1.133630] (interfaces) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl\n'}
+[1.133727] (interfaces) StderrLine: {'line': b'      srv = parse_service_string(package_name, input_file.stem, content)\n'}
+[1.133825] (interfaces) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 843, in parse_service_string\n'}
+[1.133937] (interfaces) StderrLine: {'line': b'      raise InvalidServiceSpecification(\n'}
+[1.134031] (interfaces) StderrLine: {'line': b'\n'}
+[1.134128] (interfaces) StderrLine: {'line': b'  rosidl_adapter.parser.InvalidServiceSpecification: Could not find separator\n'}
+[1.134225] (interfaces) StderrLine: {'line': b"  '---' between request and response\n"}
+[1.134318] (interfaces) StderrLine: {'line': b'\n'}
+[1.134411] (interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.134505] (interfaces) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[1.134596] (interfaces) StderrLine: {'line': b'  CMakeLists.txt:38 (rosidl_generate_interfaces)\n'}
+[1.134695] (interfaces) StderrLine: {'line': b'\n'}
+[1.134787] (interfaces) StderrLine: {'line': b'\n'}
+[1.135237] (interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.135370] (interfaces) StdoutLine: {'line': b'See also "/home/aurora/MQTTAPI/ros2_ws/src/interfaces/build/interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[1.142589] (interfaces) CommandEnded: {'returncode': 1}
+[1.165089] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 1}
+[1.175748] (-) EventReactorShutdown: {}

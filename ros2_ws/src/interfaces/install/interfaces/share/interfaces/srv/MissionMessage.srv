@@ -1,0 +1,9 @@
+# Request part
+int32 input_value
+string input_message
+---
+
+# Response part
+bool success
+string response_message
+

@@ -1,0 +1,152 @@
+[0.012s] Invoking command in '/home/aurora/MQTTAPI/ros2_ws/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aurora/MQTTAPI/ros2_ws/install/rn2:/home/aurora/MQTTAPI/ros2_ws/install/rn1:/home/aurora/MQTTAPI/ros2_ws/install/mqtt_integration:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake --build /home/aurora/MQTTAPI/ros2_ws/build/interfaces -- -j32 -l32
+[0.065s] [  2%] Built target interfaces__cpp
+[0.071s] [ 12%] Built target interfaces__rosidl_generator_c
+[0.087s] [ 23%] Built target interfaces__rosidl_typesupport_c
+[0.093s] [ 33%] Built target interfaces__rosidl_typesupport_introspection_c
+[0.095s] [ 43%] Built target interfaces__rosidl_typesupport_introspection_cpp
+[0.098s] [ 53%] Built target interfaces__rosidl_typesupport_cpp
+[0.101s] [ 64%] Built target interfaces__rosidl_typesupport_fastrtps_cpp
+[0.135s] [ 74%] Built target interfaces__rosidl_typesupport_fastrtps_c
+[0.163s] [ 74%] Built target interfaces
+[0.194s] [ 76%] Built target interfaces__py
+[0.222s] [ 84%] Built target interfaces__python
+[0.241s] [ 89%] Built target interfaces__rosidl_typesupport_introspection_c__pyext
+[0.250s] [ 94%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.254s] [100%] Built target interfaces__rosidl_typesupport_c__pyext
+[0.267s] Invoked command in '/home/aurora/MQTTAPI/ros2_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aurora/MQTTAPI/ros2_ws/install/rn2:/home/aurora/MQTTAPI/ros2_ws/install/rn1:/home/aurora/MQTTAPI/ros2_ws/install/mqtt_integration:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake --build /home/aurora/MQTTAPI/ros2_ws/build/interfaces -- -j32 -l32
+[0.342s] Invoking command in '/home/aurora/MQTTAPI/ros2_ws/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aurora/MQTTAPI/ros2_ws/install/rn2:/home/aurora/MQTTAPI/ros2_ws/install/rn1:/home/aurora/MQTTAPI/ros2_ws/install/mqtt_integration:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake --install /home/aurora/MQTTAPI/ros2_ws/build/interfaces
+[0.347s] -- Install configuration: ""
+[0.347s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces
+[0.348s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces
+[0.348s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/srv
+[0.348s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/srv/detail
+[0.348s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/srv/detail/mission_message__functions.h
+[0.348s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/srv/detail/mission_message__struct.h
+[0.348s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/srv/detail/mission_message__type_support.h
+[0.348s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/srv/detail/mission_message__functions.c
+[0.348s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/srv/mission_message.h
+[0.348s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/msg
+[0.348s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/msg/detail
+[0.348s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/msg/detail/mission_message__functions.h
+[0.348s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/msg/detail/mission_message__struct.h
+[0.348s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/msg/detail/mission_message__type_support.h
+[0.348s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/msg/detail/mission_message__functions.c
+[0.348s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.348s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/msg/mission_message.h
+[0.348s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/share/interfaces/environment/library_path.sh
+[0.348s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/share/interfaces/environment/library_path.dsv
+[0.348s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so
+[0.348s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces
+[0.348s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/srv
+[0.348s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/srv/detail
+[0.349s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/srv/detail/mission_message__rosidl_typesupport_fastrtps_c.h
+[0.349s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/msg
+[0.349s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/msg/detail
+[0.349s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/msg/detail/mission_message__rosidl_typesupport_fastrtps_c.h
+[0.349s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.349s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so
+[0.349s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces
+[0.349s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/srv
+[0.349s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/srv/detail
+[0.349s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/srv/detail/mission_message__rosidl_typesupport_fastrtps_cpp.hpp
+[0.349s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/srv/detail/dds_fastrtps
+[0.349s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/msg
+[0.349s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/msg/detail
+[0.349s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/msg/detail/mission_message__rosidl_typesupport_fastrtps_cpp.hpp
+[0.349s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/msg/detail/dds_fastrtps
+[0.349s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.349s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.349s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces
+[0.349s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/srv
+[0.349s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/srv/detail
+[0.349s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/srv/detail/mission_message__rosidl_typesupport_introspection_c.h
+[0.349s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/srv/detail/mission_message__type_support.c
+[0.349s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/msg
+[0.349s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/msg/detail
+[0.350s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/msg/detail/mission_message__rosidl_typesupport_introspection_c.h
+[0.350s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/msg/detail/mission_message__type_support.c
+[0.350s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.350s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so
+[0.350s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so
+[0.350s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces
+[0.350s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/srv
+[0.350s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/srv/detail
+[0.350s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/srv/detail/mission_message__type_support.hpp
+[0.350s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/srv/detail/mission_message__traits.hpp
+[0.350s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/srv/detail/mission_message__builder.hpp
+[0.350s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/srv/detail/mission_message__struct.hpp
+[0.350s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/srv/mission_message.hpp
+[0.350s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/msg
+[0.350s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/msg/detail
+[0.350s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/msg/detail/mission_message__type_support.hpp
+[0.350s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/msg/detail/mission_message__traits.hpp
+[0.350s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/msg/detail/mission_message__builder.hpp
+[0.350s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/msg/detail/mission_message__struct.hpp
+[0.350s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/msg/mission_message.hpp
+[0.350s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.350s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces
+[0.350s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/srv
+[0.350s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/srv/detail
+[0.350s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/srv/detail/mission_message__rosidl_typesupport_introspection_cpp.hpp
+[0.350s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/srv/detail/mission_message__type_support.cpp
+[0.350s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/msg
+[0.350s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/msg/detail
+[0.350s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/msg/detail/mission_message__rosidl_typesupport_introspection_cpp.hpp
+[0.350s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/include/interfaces/msg/detail/mission_message__type_support.cpp
+[0.350s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so
+[0.350s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so
+[0.350s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/share/interfaces/environment/pythonpath.sh
+[0.351s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/share/interfaces/environment/pythonpath.dsv
+[0.351s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/__init__.py
+[0.372s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg
+[0.372s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_mission_message_s.c
+[0.372s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_mission_message.py
+[0.372s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/__init__.py
+[0.373s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/srv
+[0.373s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/srv/_mission_message_s.c
+[0.373s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/srv/_mission_message.py
+[0.373s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/srv/__init__.py
+[0.373s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[0.374s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[0.376s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[0.377s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/lib/libinterfaces__python.so
+[0.377s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/share/interfaces/msg/MissionMessage.idl
+[0.377s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/share/interfaces/srv/MissionMessage.idl
+[0.378s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/share/interfaces/msg/MissionMessage.msg
+[0.378s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/share/interfaces/srv/MissionMessage.srv
+[0.378s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/share/interfaces/srv/MissionMessage_Request.msg
+[0.378s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/share/interfaces/srv/MissionMessage_Response.msg
+[0.378s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces
+[0.378s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces
+[0.378s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.sh
+[0.378s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv
+[0.378s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/share/interfaces/environment/path.sh
+[0.379s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/share/interfaces/environment/path.dsv
+[0.379s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/share/interfaces/local_setup.bash
+[0.379s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/share/interfaces/local_setup.sh
+[0.379s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/share/interfaces/local_setup.zsh
+[0.379s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/share/interfaces/local_setup.dsv
+[0.379s] -- Installing: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/share/interfaces/package.dsv
+[0.379s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/share/ament_index/resource_index/packages/interfaces
+[0.379s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cExport.cmake
+[0.379s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cExport-noconfig.cmake
+[0.379s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.380s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.380s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake
+[0.380s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[0.380s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cppExport.cmake
+[0.380s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.381s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.381s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake
+[0.381s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[0.381s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake
+[0.381s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.381s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.381s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.381s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.381s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.381s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.381s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake
+[0.382s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake
+[0.382s] -- Up-to-date: /home/aurora/MQTTAPI/ros2_ws/install/interfaces/share/interfaces/package.xml
+[0.383s] Invoked command in '/home/aurora/MQTTAPI/ros2_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aurora/MQTTAPI/ros2_ws/install/rn2:/home/aurora/MQTTAPI/ros2_ws/install/rn1:/home/aurora/MQTTAPI/ros2_ws/install/mqtt_integration:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake --install /home/aurora/MQTTAPI/ros2_ws/build/interfaces
